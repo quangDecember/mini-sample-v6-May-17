@@ -203,7 +203,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSEntityDescription;
 @class NSManagedObjectContext;
-
+#ifndef __cplusplus
 SWIFT_CLASS_NAMED("Location")
 @interface Location : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
@@ -216,7 +216,7 @@ SWIFT_CLASS_NAMED("Location")
 @property (nonatomic) double longitude;
 @property (nonatomic, copy) NSDate * _Nullable timestamp;
 @end
-
+#endif
 @class NSNumber;
 
 /// Mission Achievement Data class
