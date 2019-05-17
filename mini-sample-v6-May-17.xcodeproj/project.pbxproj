@@ -12,6 +12,11 @@
 		8B52F298228EAF6200EE394F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F296228EAF6200EE394F /* Main.storyboard */; };
 		8B52F29A228EAF6300EE394F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F299228EAF6300EE394F /* Assets.xcassets */; };
 		8B52F29D228EAF6300EE394F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F29B228EAF6300EE394F /* LaunchScreen.storyboard */; };
+		8B52F2AB228EAF9300EE394F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52F2AA228EAF9300EE394F /* AppDelegate.swift */; };
+		8B52F2AD228EAF9300EE394F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52F2AC228EAF9300EE394F /* ViewController.swift */; };
+		8B52F2B0228EAF9300EE394F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F2AE228EAF9300EE394F /* Main.storyboard */; };
+		8B52F2B2228EAF9400EE394F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F2B1228EAF9400EE394F /* Assets.xcassets */; };
+		8B52F2B5228EAF9400EE394F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F2B3228EAF9400EE394F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,24 @@
 		8B52F299228EAF6300EE394F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B52F29C228EAF6300EE394F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B52F29E228EAF6300EE394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B52F2A8228EAF9300EE394F /* mini-sample-v6-May-17-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mini-sample-v6-May-17-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B52F2AA228EAF9300EE394F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B52F2AC228EAF9300EE394F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B52F2AF228EAF9300EE394F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B52F2B1228EAF9400EE394F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B52F2B4228EAF9400EE394F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B52F2B6228EAF9400EE394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B52F28C228EAF6200EE394F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B52F2A5228EAF9300EE394F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				8B52F291228EAF6200EE394F /* mini-sample-v6-May-17 */,
+				8B52F2A9228EAF9300EE394F /* mini-sample-v6-May-17-objc */,
 				8B52F290228EAF6200EE394F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				8B52F28F228EAF6200EE394F /* mini-sample-v6-May-17.app */,
+				8B52F2A8228EAF9300EE394F /* mini-sample-v6-May-17-objc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +83,19 @@
 				8B52F29E228EAF6300EE394F /* Info.plist */,
 			);
 			path = "mini-sample-v6-May-17";
+			sourceTree = "<group>";
+		};
+		8B52F2A9228EAF9300EE394F /* mini-sample-v6-May-17-objc */ = {
+			isa = PBXGroup;
+			children = (
+				8B52F2AA228EAF9300EE394F /* AppDelegate.swift */,
+				8B52F2AC228EAF9300EE394F /* ViewController.swift */,
+				8B52F2AE228EAF9300EE394F /* Main.storyboard */,
+				8B52F2B1228EAF9400EE394F /* Assets.xcassets */,
+				8B52F2B3228EAF9400EE394F /* LaunchScreen.storyboard */,
+				8B52F2B6228EAF9400EE394F /* Info.plist */,
+			);
+			path = "mini-sample-v6-May-17-objc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +118,23 @@
 			productReference = 8B52F28F228EAF6200EE394F /* mini-sample-v6-May-17.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8B52F2A7228EAF9300EE394F /* mini-sample-v6-May-17-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B52F2B7228EAF9400EE394F /* Build configuration list for PBXNativeTarget "mini-sample-v6-May-17-objc" */;
+			buildPhases = (
+				8B52F2A4228EAF9300EE394F /* Sources */,
+				8B52F2A5228EAF9300EE394F /* Frameworks */,
+				8B52F2A6228EAF9300EE394F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mini-sample-v6-May-17-objc";
+			productName = "mini-sample-v6-May-17-objc";
+			productReference = 8B52F2A8228EAF9300EE394F /* mini-sample-v6-May-17-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +146,9 @@
 				ORGANIZATIONNAME = "Rakuten Asia Ltd.";
 				TargetAttributes = {
 					8B52F28E228EAF6200EE394F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8B52F2A7228EAF9300EE394F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -113,6 +167,7 @@
 			projectRoot = "";
 			targets = (
 				8B52F28E228EAF6200EE394F /* mini-sample-v6-May-17 */,
+				8B52F2A7228EAF9300EE394F /* mini-sample-v6-May-17-objc */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +183,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B52F2A6228EAF9300EE394F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B52F2B5228EAF9400EE394F /* LaunchScreen.storyboard in Resources */,
+				8B52F2B2228EAF9400EE394F /* Assets.xcassets in Resources */,
+				8B52F2B0228EAF9300EE394F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +202,15 @@
 			files = (
 				8B52F295228EAF6200EE394F /* ViewController.swift in Sources */,
 				8B52F293228EAF6200EE394F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B52F2A4228EAF9300EE394F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B52F2AD228EAF9300EE394F /* ViewController.swift in Sources */,
+				8B52F2AB228EAF9300EE394F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +229,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B52F29C228EAF6300EE394F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8B52F2AE228EAF9300EE394F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B52F2AF228EAF9300EE394F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B52F2B3228EAF9400EE394F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B52F2B4228EAF9400EE394F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -284,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "mini-sample-v6-May-17/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +392,46 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "mini-sample-v6-May-17/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.rakuten.mini-sample-v6-May-17";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B52F2B8228EAF9400EE394F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mini-sample-v6-May-17-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.rakuten.mini-sample-v6-May-17-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B52F2B9228EAF9400EE394F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mini-sample-v6-May-17-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.rakuten.mini-sample-v6-May-17-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,6 +455,15 @@
 			buildConfigurations = (
 				8B52F2A2228EAF6300EE394F /* Debug */,
 				8B52F2A3228EAF6300EE394F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B52F2B7228EAF9400EE394F /* Build configuration list for PBXNativeTarget "mini-sample-v6-May-17-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B52F2B8228EAF9400EE394F /* Debug */,
+				8B52F2B9228EAF9400EE394F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
