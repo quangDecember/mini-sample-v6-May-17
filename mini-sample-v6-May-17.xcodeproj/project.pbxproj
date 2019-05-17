@@ -20,6 +20,14 @@
 		8B52F2D0228EB02500EE394F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52F2CF228EB02500EE394F /* main.m */; };
 		8B52F2D5228EB38800EE394F /* RakutenRewardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52F2D4228EB38700EE394F /* RakutenRewardSDK.framework */; };
 		8B52F2D6228EB38800EE394F /* RakutenRewardSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52F2D4228EB38700EE394F /* RakutenRewardSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B52F2E0228EB9E900EE394F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B52F2DF228EB9E900EE394F /* AppDelegate.mm */; };
+		8B52F2E3228EB9E900EE394F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52F2E2228EB9E900EE394F /* ViewController.m */; };
+		8B52F2E6228EB9E900EE394F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F2E4228EB9E900EE394F /* Main.storyboard */; };
+		8B52F2E8228EB9EB00EE394F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F2E7228EB9EB00EE394F /* Assets.xcassets */; };
+		8B52F2EB228EB9EB00EE394F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B52F2E9228EB9EB00EE394F /* LaunchScreen.storyboard */; };
+		8B52F2EE228EB9EB00EE394F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52F2ED228EB9EB00EE394F /* main.m */; };
+		8B52F2F2228EBA1000EE394F /* RakutenRewardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52F2D4228EB38700EE394F /* RakutenRewardSDK.framework */; };
+		8B52F2F3228EBA1000EE394F /* RakutenRewardSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52F2D4228EB38700EE394F /* RakutenRewardSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +38,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				8B52F2D6228EB38800EE394F /* RakutenRewardSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B52F2F4228EBA1000EE394F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B52F2F3228EBA1000EE394F /* RakutenRewardSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +74,16 @@
 		8B52F2CE228EB02500EE394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B52F2CF228EB02500EE394F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B52F2D4228EB38700EE394F /* RakutenRewardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RakutenRewardSDK.framework; sourceTree = "<group>"; };
+		8B52F2DC228EB9E900EE394F /* ObjectiveCpp-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectiveCpp-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B52F2DE228EB9E900EE394F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B52F2DF228EB9E900EE394F /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		8B52F2E1228EB9E900EE394F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B52F2E2228EB9E900EE394F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B52F2E5228EB9E900EE394F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B52F2E7228EB9EB00EE394F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B52F2EA228EB9EB00EE394F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B52F2EC228EB9EB00EE394F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B52F2ED228EB9EB00EE394F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +102,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B52F2D9228EB9E900EE394F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B52F2F2228EBA1000EE394F /* RakutenRewardSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +119,7 @@
 				8B52F2D4228EB38700EE394F /* RakutenRewardSDK.framework */,
 				8B52F291228EAF6200EE394F /* mini-sample-v6-May-17 */,
 				8B52F2BF228EB02400EE394F /* objective-c-and-cpp */,
+				8B52F2DD228EB9E900EE394F /* ObjectiveCpp-sample */,
 				8B52F290228EAF6200EE394F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +129,7 @@
 			children = (
 				8B52F28F228EAF6200EE394F /* mini-sample-v6-May-17.app */,
 				8B52F2BE228EB02400EE394F /* objective-c-and-cpp.app */,
+				8B52F2DC228EB9E900EE394F /* ObjectiveCpp-sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +161,22 @@
 				8B52F2CF228EB02500EE394F /* main.m */,
 			);
 			path = "objective-c-and-cpp";
+			sourceTree = "<group>";
+		};
+		8B52F2DD228EB9E900EE394F /* ObjectiveCpp-sample */ = {
+			isa = PBXGroup;
+			children = (
+				8B52F2DE228EB9E900EE394F /* AppDelegate.h */,
+				8B52F2DF228EB9E900EE394F /* AppDelegate.mm */,
+				8B52F2E1228EB9E900EE394F /* ViewController.h */,
+				8B52F2E2228EB9E900EE394F /* ViewController.m */,
+				8B52F2E4228EB9E900EE394F /* Main.storyboard */,
+				8B52F2E7228EB9EB00EE394F /* Assets.xcassets */,
+				8B52F2E9228EB9EB00EE394F /* LaunchScreen.storyboard */,
+				8B52F2EC228EB9EB00EE394F /* Info.plist */,
+				8B52F2ED228EB9EB00EE394F /* main.m */,
+			);
+			path = "ObjectiveCpp-sample";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +217,24 @@
 			productReference = 8B52F2BE228EB02400EE394F /* objective-c-and-cpp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8B52F2DB228EB9E900EE394F /* ObjectiveCpp-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B52F2EF228EB9EB00EE394F /* Build configuration list for PBXNativeTarget "ObjectiveCpp-sample" */;
+			buildPhases = (
+				8B52F2D8228EB9E900EE394F /* Sources */,
+				8B52F2D9228EB9E900EE394F /* Frameworks */,
+				8B52F2DA228EB9E900EE394F /* Resources */,
+				8B52F2F4228EBA1000EE394F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectiveCpp-sample";
+			productName = "ObjectiveCpp-sample";
+			productReference = 8B52F2DC228EB9E900EE394F /* ObjectiveCpp-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,6 +249,9 @@
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					8B52F2BD228EB02400EE394F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8B52F2DB228EB9E900EE394F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -195,6 +271,7 @@
 			targets = (
 				8B52F28E228EAF6200EE394F /* mini-sample-v6-May-17 */,
 				8B52F2BD228EB02400EE394F /* objective-c-and-cpp */,
+				8B52F2DB228EB9E900EE394F /* ObjectiveCpp-sample */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +297,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B52F2DA228EB9E900EE394F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B52F2EB228EB9EB00EE394F /* LaunchScreen.storyboard in Resources */,
+				8B52F2E8228EB9EB00EE394F /* Assets.xcassets in Resources */,
+				8B52F2E6228EB9E900EE394F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -239,6 +326,16 @@
 				8B52F2C5228EB02400EE394F /* ViewController.m in Sources */,
 				8B52F2D0228EB02500EE394F /* main.m in Sources */,
 				8B52F2C2228EB02400EE394F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B52F2D8228EB9E900EE394F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B52F2E3228EB9E900EE394F /* ViewController.m in Sources */,
+				8B52F2EE228EB9EB00EE394F /* main.m in Sources */,
+				8B52F2E0228EB9E900EE394F /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +370,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B52F2CC228EB02500EE394F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8B52F2E4228EB9E900EE394F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B52F2E5228EB9E900EE394F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B52F2E9228EB9EB00EE394F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B52F2EA228EB9EB00EE394F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -472,6 +585,48 @@
 			};
 			name = Release;
 		};
+		8B52F2F0228EB9EB00EE394F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ObjectiveCpp-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.rakuten.ObjectiveCpp-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B52F2F1228EB9EB00EE394F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ObjectiveCpp-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.rakuten.ObjectiveCpp-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,6 +653,15 @@
 			buildConfigurations = (
 				8B52F2D2228EB02500EE394F /* Debug */,
 				8B52F2D3228EB02500EE394F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B52F2EF228EB9EB00EE394F /* Build configuration list for PBXNativeTarget "ObjectiveCpp-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B52F2F0228EB9EB00EE394F /* Debug */,
+				8B52F2F1228EB9EB00EE394F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
